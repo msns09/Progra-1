@@ -55,9 +55,7 @@ public class ProyectoProgra {
            }
            
            System.out.printf("%.1f %c %.1f = %.1f %n", number1, operator, number2, result);
-        }
-    //}
-    
+        }   
 }    
 
     
