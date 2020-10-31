@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package proyecto.progra;
+package problema1;
 
 import java.util.Scanner;
 
@@ -21,18 +21,20 @@ public class ProyectoProgra {
            //variables
            double number1;
            double number2;
-           String operator;
+           char operator;
            
            //main code
            System.out.println("Enter numbers: ");
            number1 = input.nextInt();
-           operator = input.next();
+           operator = +, -;
            number2 = input.nextInt();
            
            double result;
            
             switch(operator){
-               case '+':
+                case '+':
+                    result = number1 + number2;
+                    
                    
            }
         }
