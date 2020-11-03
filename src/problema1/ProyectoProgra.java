@@ -8,7 +8,7 @@ package problema1;
 import java.util.Scanner;
 
 public class ProyectoProgra {
-
+    
     public static void main(String[] args) {
 
         boolean exitLoop = false;
@@ -23,7 +23,7 @@ public class ProyectoProgra {
             double result;
             char operator;
 
-            //main code
+            //main code            
             System.out.println("Enter numbers: ");
             number1 = reader.nextDouble();
             number2 = reader.nextDouble();
