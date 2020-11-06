@@ -36,7 +36,7 @@ public class Areas {
     base = x.nextDouble();
     System.out.println("Cuanto mide la altura de el rectangulo? ");
     Scanner y = new Scanner(System.in);
-    altura = y.nextInt();
+    altura = y.nextDouble();
     area = base * altura;
     resultado = area / 2;
     
