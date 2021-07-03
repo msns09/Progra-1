@@ -1,0 +1,51 @@
+package parcial.pkg1;
+
+import java.util.Scanner;
+
+public class Parcial1 {
+
+    public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+
+        String empresa;
+        String provincia;
+        int trabajadores;
+        int trabCovid;
+        boolean trabCovid2;
+        int trabCovid3;
+        int ingresoPro;
+        int creditos = 0;
+        boolean creditos2;
+
+        creditos2 = false;
+
+        System.out.println("Ingrese nombre de empresa: ");
+        empresa = input.next();
+        System.out.println("Ingrese provincia de empresa: ");
+        provincia = input.next();
+        System.out.println("Ingrese cantidad de trabajadores: ");
+        trabajadores = input.nextInt();
+        System.out.println("Ingrese trabajadores con Covid: ");
+        trabCovid = input.nextInt();
+        System.out.println("Ingrese el ingreso promedio de la empresa: ");
+        ingresoPro = input.nextInt();
+        System.out.println("Ingrese la cantidad de creditos de empresa: ");
+        creditos = input.nextInt();
+        System.out.printf("Nombre de empresa: " + empresa);
+        System.out.printf("Provincia de empresa: " + provincia);
+        System.out.println("Cantidad de trabajadores: " + trabajadores);
+        System.out.println("Cantidad de trabajadores con Covid: " + trabCovid);
+        System.out.println("Ingreso promedio de la empresa: " + ingresoPro);
+        if (creditos == 0) {
+            creditos2 = false;
+            System.out.println("La empresa no tiene creditos.");
+        } else {
+            creditos2 = true;
+            System.out.println("Su empresa tiene " + creditos);
+        }
+        
+    
+        
+    }
+}
